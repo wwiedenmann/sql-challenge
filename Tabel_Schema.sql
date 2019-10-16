@@ -17,7 +17,7 @@ CREATE TABLE "Dept_empt" (
     "from_date" DATE   NOT NULL,
     "to_date" DATE   NOT NULL,
     CONSTRAINT "pk_Dept_empt" PRIMARY KEY (
-        "emp_no"
+        "dept_emp_id"
      )
 );
 
@@ -28,7 +28,7 @@ CREATE TABLE "Dept_manager" (
     "from_date" DATE   NOT NULL,
     "to_date" DATE   NOT NULL,
     CONSTRAINT "pk_Dept_manager" PRIMARY KEY (
-        "dept_no"
+        "dept_manager_id"
      )
 );
 
@@ -61,7 +61,7 @@ CREATE TABLE "Titles" (
     "from_date" DATE   NOT NULL,
     "to_date" DATE   NOT NULL,
     CONSTRAINT "pk_Titles" PRIMARY KEY (
-        "emp_no"
+        "titles_id"
      )
 );
 
